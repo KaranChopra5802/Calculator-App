@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/burntpaper"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/formula"
+        android:layout_width="215dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:text="Change In Length"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Formula1" />
+
+    <Button
+        android:id="@+id/Formula1"
+        android:layout_width="215dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="120dp"
+
+        android:text="E = mc^2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#514242"
+        app:iconTint="#886363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Formula2"
+        android:layout_width="215dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:text="Change In Length"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#514242"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Formula1" />
+
+    <Button
+        android:id="@+id/Formula3"
+        android:layout_width="215dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:text="CHANGE IN TIME"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#514242"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Formula2" />
+
+    <Button
+        android:id="@+id/Formula4"
+        android:layout_width="215dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:text="CHANGE IN MASS"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#514242"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Formula3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="RELATIVITY"
+        android:textAlignment="center"
+        android:textColor="#1C1B1B"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Formula1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
